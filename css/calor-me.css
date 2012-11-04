@@ -89,6 +89,16 @@ button.addFood {
   background: -o-linear-gradient(30deg, #101e9b, #2ea9ef);
   background: -ms-linear-gradient(30deg, #101e9b, #2ea9ef);
   background: linear-gradient(30deg, #101e9b, #2ea9ef);
+  /*Add transition to button*/
+  -webkit-transition: background 3s ease;
+  -moz-transition: background 3s ease;
+  -ms-transition: background 3s ease;
+  -o-transition: background 3s ease;
+  transition: background 3s ease;
+}
+
+button.addFood:hover {
+  background: lightblue;
 }
 /* Add a green gradient to the back of the add exercise button */
 button.addActivity {
@@ -97,6 +107,16 @@ button.addActivity {
   background: -o-linear-gradient(30deg, #105432, #3eaf2c);
   background: -ms-linear-gradient(30deg, #105432, #3eaf2c);
   background: linear-gradient(30deg, #105432, #3eaf2c);
+  /*Add transition to button*/
+  -webkit-transition: background 3s ease;
+  -moz-transition: background 3s ease;
+  -ms-transition: background 3s ease;
+  -o-transition: background 3s ease;
+  transition: background 3s ease;
+}
+/*add hover effect*/
+button.addFood:hover {
+  background: lightgreen;
 }
 
 /*
